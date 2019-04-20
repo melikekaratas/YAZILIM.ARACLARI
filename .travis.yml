@@ -3,3 +3,5 @@ sudo: false
 script: "mvn -f ornekMavenProje/pom.xml clean install"
 jdk:
    - oraclejdk8
+   - openjdk8
+   - oraclejdk9
